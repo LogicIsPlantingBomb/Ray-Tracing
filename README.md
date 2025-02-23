@@ -3,6 +3,10 @@
 ## Overview
 This project is a simple ray tracing simulation built using C and SDL2. It visualizes light rays originating from a moving light source (represented as a circle) and how they interact with an object (another circle). The rays stop when they hit the object's surface, creating a basic shadow effect.
 
+## Screenshot
+
+![raytracing](https://github.com/user-attachments/assets/88daecc0-d828-40a1-a60d-6ab5ab186029)
+
 ## Features
 - **Dynamic light source**: Move the light source using mouse motion.
 - **Real-time rendering**: Rays are cast from the light source and stop when they collide with the object.
@@ -25,11 +29,6 @@ This project is a simple ray tracing simulation built using C and SDL2. It visua
    ```bash
    ./raytracing
    ```
-
-## Screenshot
-
-![raytracing](https://github.com/user-attachments/assets/88daecc0-d828-40a1-a60d-6ab5ab186029)
-
 
 ## Notes
 This is a small part of a big project ,while the program simulates rays of light and their interaction with a circular object, it is **not** a full ray tracing engine. Proper ray tracing involves more complex physics — like calculating light reflection, refraction, and color blending — which this code does not cover. 
