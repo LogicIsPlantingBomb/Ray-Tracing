@@ -1,4 +1,4 @@
-# Ray Tracing Simulation with SDL2.
+# Ray Tracing Simulation with SDL2
 ## Overview
 This project is a simple ray tracing simulation built using C and SDL2. It visualizes light rays originating from a moving light source (represented as a circle) and how they interact with an object (another circle). The rays stop when they hit the object's surface, creating a basic shadow effect.
 
